@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odds Array 1-255</title>
+  </head>
+  <body>
+    <a href="printOddnum.html">Next Page please</a><br />
+    <h3>oddNumber arry</h3>
+    <script>
+      function oddArray() {
+        let arr = [];
+        for (let i = 1; i <= 255; i++) {
+          if (i % 2 != 0) {
+            arr.push(i);
+            document.write(arr);
+            console.log(arr);
+          }
+        }
+        // document.write(i + ",");
+      }
+      oddArray();
+    </script>
+  </body>
+</html>

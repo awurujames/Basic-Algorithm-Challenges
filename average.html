@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finding the the average array</title>
+  </head>
+
+  <body>
+    <a href="oddnum-arrays.html">Next Page please</a><br />
+    <h3>The average array is</h3>
+
+    <script>
+      let arr = [5, 23, 6, 10];
+
+      function printMaxOfArray(arr) {
+        let average = arr[0];
+        for (let i = 0; i < arr.length; i++) {
+          if (arr[i] / arr.length) {
+            average = arr[i];
+          }
+        }
+        document.write(`The average number is of the array${average}`);
+      }
+
+      printMaxOfArray(arr);
+    </script>
+  </body>
+</html>
